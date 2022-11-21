@@ -1,0 +1,17 @@
+.side__ul {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 20px;
+    bottom: 12px;
+}
+
+.side__li {
+    display: flex;
+}
+
+.side__bar {
+    position:relative;
+    height: 15px;
+    padding-top: 7px;
+}

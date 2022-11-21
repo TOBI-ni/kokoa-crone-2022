@@ -1,0 +1,117 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* component */
+@import "component/popup.css";
+@import "component/side-bar.css";
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    height: 568px;
+    width: 320px;
+    border: 10px solid rgba(0, 0, 0, 0.856);
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(227, 226, 235, 0.3), 0 15px 12px rgba(227, 226, 235, 0.2);
+    padding: 10px;
+}
+
+.status__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fa-signal {
+    margin-left: 125px;
+}
+
+.replay__screen {
+    height: 29%;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-image: url(img/valorant.jpg);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.replay__header {
+    width: 95%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.replay__header i {
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+.replay__handling {
+    width: 95%;
+    height: 70%;
+    margin: 30px 0px 30px 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.replay__handling2 {
+    margin: 0px 15px 7px 15px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+.fa-expand {
+    margin-left: 190px;
+}
+
+.fa-play {
+    font-size: 23px;
+    margin: 0px 70px;
+    opacity: 0.9;
+}
+
+.replay__progress {
+    position: relative;
+    height: 2px;
+    background-color: gray;
+}
+
+.progress__played {
+    width: 82%;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+}
+
+.progress__mark {
+    height: 6px;
+    width: 6px;
+    border-radius:50%;
+    position: absolute;
+    background-color: red;
+    left: 100%;
+    top:-2.0px;
+}
+
+.image__zet {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 320px) and (max-height: 568px) { body { background-color: black;
+color: white; }}
